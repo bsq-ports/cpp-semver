@@ -166,3 +166,8 @@ ehthumbs.db
 Corridor/Library/ShaderCache/
 Corridor/Library/metadata/
 
+
+# QPM2 local outputs
+qpm.settings.json
+toolchain.json
+*.qpkg

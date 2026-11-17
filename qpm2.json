@@ -1,0 +1,23 @@
+{
+  "configVersion": "2.0.0",
+  "id": "cpp-semver",
+  "version": "0.1.2",
+  "additionalData": {
+    "url": "https://github.com/bsq-ports/cpp-semver"
+  },
+  "workspace": {
+    "ndk": "^29.0.0",
+    "outBinaries": [],
+    "toolchainOut": "toolchain.json",
+    "cmake": false,
+    "scripts": {
+      "build": [
+        "pwsh ./build.ps1"
+      ]
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "dependenciesDirectory": "extern",
+  "sharedDirectory": "shared"
+}

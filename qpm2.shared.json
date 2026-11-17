@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/QuestPackageManager/QPM.Package/refs/heads/main/qpm.shared.schema.json",
+  "config": {
+    "configVersion": "2.0.0",
+    "id": "cpp-semver",
+    "version": "0.1.2",
+    "additionalData": {
+      "description": "",
+      "author": "",
+      "license": "",
+      "url": "https://github.com/bsq-ports/cpp-semver"
+    },
+    "workspace": {
+      "scripts": {
+        "build": [
+          "pwsh ./build.ps1"
+        ]
+      },
+      "ndk": "^29.0.0",
+      "outBinaries": [],
+      "toolchainOut": "toolchain.json",
+      "cmake": false
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "dependenciesDirectory": "extern",
+    "sharedDirectory": "shared"
+  },
+  "restoredDependencies": {},
+  "env": {}
+}
