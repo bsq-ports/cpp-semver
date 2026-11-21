@@ -17,14 +17,18 @@
         ]
       },
       "ndk": "^29.0.0",
-      "outBinaries": [],
       "toolchainOut": "toolchain.json",
       "cmake": false
     },
     "dependencies": {},
     "devDependencies": {},
     "dependenciesDirectory": "extern",
-    "sharedDirectory": "shared"
+    "sharedDirectory": "shared",
+    "compileOptions": {
+      "includePaths": [
+        ""
+      ]
+    }
   },
   "restoredDependencies": {},
   "env": {}

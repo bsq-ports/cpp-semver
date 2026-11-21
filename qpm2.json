@@ -7,7 +7,6 @@
   },
   "workspace": {
     "ndk": "^29.0.0",
-    "outBinaries": [],
     "toolchainOut": "toolchain.json",
     "cmake": false,
     "scripts": {
@@ -19,5 +18,8 @@
   "dependencies": {},
   "devDependencies": {},
   "dependenciesDirectory": "extern",
-  "sharedDirectory": "shared"
+  "sharedDirectory": "shared",
+  "compileOptions": {
+    "includePaths": [""]
+  }
 }
