@@ -3,7 +3,7 @@
   "config": {
     "configVersion": "2.0.0",
     "id": "cpp-semver",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "additionalData": {
       "description": "",
       "author": "",
